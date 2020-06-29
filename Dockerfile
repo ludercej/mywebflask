@@ -1,7 +1,7 @@
 FROM ubuntu
 
 RUN apt-get update
-RUN apt-get -y install python3 python3-pip vim
+RUN apt-get -y install python3 python3-pip vim htop
 RUN pip3 install flask
 COPY app.py /opt
 
